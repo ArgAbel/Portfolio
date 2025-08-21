@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+        <nav class="main-nav">
+      <div class="nav-header">
+        <!--<img
+          src="/imagenes/fotoabelbarranav.jpeg"
+          alt="foto Abel"
+          class="fotonav"
+        />-->
+        <img
+          src="imagenes/hamburguer_135361.png"
+          style="width: 50px; height: 50px"
+          alt="hamburguer icon"
+          class="hamburguerico"
+        />
+      </div>
+      <div class="nav-links-container">
+        <a class="pa" href="#home">inicio</a>
+        <a class="pa" href="#about">INFORMACION IMPORTANTE</a>
+        <a class="pa" href="#tecnologia">TECNOLOGIAS</a>
+        <a class="pa" href="#contact">CONTACTO</a>
+      </div>
+        </nav>
+    <section class="hero" id="home">
+        <div class="hero">
+          <img
+            src="/imagenes/fotofamilia.jpeg"
+            alt="Foto de familia"
+            class="maskedimage"
+          />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h1>
+          YO SOY
+          <span>
+            <span>DEVELOPER</span>
+            <span>PADRE</span>
+            <span>ESPOSO</span>
+            <span>ENTUSIASTA</span>
+            <span>EMPRENDEDOR</span>
+            <span>HIJO</span>
+          </span>
+        </h1>
+      </section>
+      <section class="contacto" id="contact">
+        <h2>Formulario de contacto</h2>
+        <div class="containerform">
+          <form class="formulario" action="action_page.php">
+            <label for="fname">Nombre</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="nombre"
+            />
+
+            <label for="lname">Apellido</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Apellido"
+            />
+
+            <label for="country">Requisito de contacto</label>
+            <select id="rcontacto" name="contratacion">
+              <option value="Presupuesto">Presupuesto</option>
+              <option value="contratacion">contratacion</option>
+              <option value="consulta">consulta</option>
+            </select>
+
+            <label for="comentarios">Comentarios</label>
+            <textarea
+              id="comentarios"
+              name="comentarios"
+              placeholder="escriba aqui los detalles de su consulta"
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="contactar" />
+          </form>
+        </div>
+      </section>
+      <aside class="tecnologias" id="tecnologia">
+        <h2 class="ache2">Lenguajes Aprendidos</h2>
+        <div class="fotinfinito">
+          <img src="/iconos/atom.svg" alt="react" class="fotoico" />
+          <img src="/iconos/html5.svg" alt="html" class="fotoico" />
+          <img src="/iconos/typescript.svg" alt="Typescript" class="fotoico" />
+          <img src="/iconos/js.svg" alt="javascript" class="fotoico" />
+          <img src="/iconos/github.svg" alt="github" class="fotoico" />
+          <img src="/iconos/atom.svg" alt="react" class="fotoico" />
+          <img src="/iconos/html5.svg" alt="html" class="fotoico" />
+          <img src="/iconos/typescript.svg" alt="Typescript" class="fotoico" />
+          <img src="/iconos/js.svg" alt="javascript" class="fotoico" />
+          <img src="/iconos/github.svg" alt="github" class="fotoico" />
+          <img src="/iconos/atom.svg" alt="react" class="fotoico" />
+          <img src="/iconos/html5.svg" alt="html" class="fotoico" />
+          <img src="/iconos/typescript.svg" alt="Typescript" class="fotoico" />
+          <img src="/iconos/js.svg" alt="javascript" class="fotoico" />
+          <img src="/iconos/github.svg" alt="github" class="fotoico" />
+        </div>
+      </aside>
+
+      <section class="carruselinformativo">
+        <div class="bodies">
+          <h2 class="ache2">Informacion Importante</h2>
+          <h2 class="ache2">Deten las imagenes</h2>
+          <section class="box">
+            <div style="--i: 1" class="cardcontainer">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      src="imagenes/fototarjeta2.jpg"
+                      alt="Avatar"
+                      style="width: 350px; height: 350px"
+                    />
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Datos Personales</p>
+                    <p>Nombre: Abel M Garcia</p>
+                    <p>Edad: 36 años</p>
+                    <p>Estado Civil: Casado</p>
+                    <p>Hijos: 2</p>
+                    <p>Direccion: Calle siempre viva 1234</p>
+                    <p>Nacionalidad; Argentina</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="--i: 2" class="cardcontainer">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      src="imagenes/utnBuenos-Aires.jpg"
+                      alt="Avatar"
+                      style="width: 2 350px; height: 350px"
+                    />
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Formacion Academica</p>
+                    <p>Estudios secundario en escuela tecnica</p>
+                    <p>
+                      titulo:tecnico en informatica con orientacion a
+                      programador
+                    </p>
+                    <p>Psicologia social</p>
+                    <p>Escuela de Psicologia Social del Sur</p>
+                    <p>Curso WEB DEVELOPER UTN</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="--i: 3" class="cardcontainer">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      src="imagenes/programacioncard3.jpg"
+                      alt="Avatar"
+                      style="width: 350px; height: 350px"
+                    />
+                  </div>
+                  <div class="flip-card-back">
+                    <p>
+                      mi interes hacia la programacion y demas tecnologias nace
+                      desde muy pequeño
+                    </p>
+                    <p>
+                      llegando en la epoca en que aun era muy complicado tener
+                      internet en casa,
+                    </p>
+                    <p>
+                      teniendo incluso largas tarde de juego con front page.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="--i: 4" class="cardcontainer">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      src="imagenes/LinkedIncard4.jpg"
+                      alt="Avatar"
+                      style="width: 350px; height: 350px"
+                    />
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Objetivos Laborales</p>
+                    <p>Siendo que aun estoy los primeros pasos</p>
+                    <p>
+                      el principal objetivo es simplemente conseguir trabajo
+                      para sumar experiencia y poder crecer.
+                    </p>
+                    <p>
+                      Como un famoso influencer remarcó, la empresa a la que
+                      aspiro es a aquella que me quiera contratar.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      
+    
+    <footer>
+        <h3>Todos los derechos reservados © 2025 ABEL M GARCIA</h3>
+      </footer>
+    </main>
+  </body>
+</html>
