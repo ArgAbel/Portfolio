@@ -64,7 +64,80 @@ h1 > span > span{
     margin: 0 auto;
     
 }
-
+.formulario {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+    width: 100%;
+    font-size: 2em;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  font-size: 1,5rem;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.containerform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+.container .tecnologias {  
+    display: flex;  
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    grid-area: tecnologia;
+    background: #f0a30a;
+    background-color: #d1d1d1;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.ache2{
+    font-family: 'galiska', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #000000;
+}
+.fotoico {
+   width: 250px;
+   height: 250px;
+   padding-bottom: 3px;
+   
+}
+.fotinfinito{
+    display: flex;
+   width: 80%;
+    animation: infiniteico 10s linear infinite;
+    
+}
+.fotinfinito:hover {
+    animation-play-state: paused;
+}
+@keyframes infiniteico { 
+    from{transform: translatex(00%);}
+    to {transform: translatex(-90%);}
+        
+}
 footer {
     grid-area: foot;
     width: 100%;
