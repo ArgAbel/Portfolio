@@ -12,6 +12,41 @@
     font-family: 'galiska', sans-serif;
      scroll-behavior: smooth;
 }
+.container{
+    gap: 20px;
+}
+nav input{
+    display: none;
+}
+.container nav ul{
+    display: none;
+}
+input:checked ~ ul{
+    display: block;
+} 
+nav label {
+  display: inline-block;
+  border-radius: 5px;
+  width: 30px;
+  height: 10vh;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+li {
+  display: block;
+  background: lightgrey;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
 .container .about { 
     display: flex;
     grid-area: about;
@@ -137,6 +172,9 @@ input[type=submit]:hover {
     from{transform: translatex(00%);}
     to {transform: translatex(-90%);}
         
+}
+.fotorotativa{
+   height: 40vh;
 }
 footer {
     grid-area: foot;
